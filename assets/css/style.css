@@ -1,0 +1,371 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    background-color: #1f2122;
+}
+html, body{
+    font-weight: 400;
+    font-size: 16px;
+}
+.header-area .main-nav .logo {
+    border-right: 1px solid #27292a;
+    flex-basis: 25%;
+    margin-right: 5%;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header-area .main-nav #search {
+    position: relative;
+}
+.header-area .main-nav #search input {
+    background-color: #27292a;
+    height: 46px;
+    border-radius: 23px;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    padding: 0px 15px 0px 45px;
+}
+.header-area .main-nav #search i {
+    position: absolute;
+    color: #666;
+    left: 20px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+}
+.header-area .main-nav .nav{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: flex-end;
+    vertical-align: middle;
+    text-align: right;
+    margin-top: 0%;
+}
+
+.header-area .main-nav{
+    display: flex;
+    padding: 25px;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-area .main-nav .nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+
+.header-area .main-nav .nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.header-area .main-nav .nav li a {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #666;
+    transition: all 0.3s ease 0s;
+    border: transparent;
+    padding: 13px 10px;
+    border-radius: 18px;
+    letter-spacing: .3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-nav .nav li a.active {
+    color: #e75e8d !important;
+}
+.profile-cheap img {
+    max-width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: flex;
+    width: 30px;
+}
+.profile-cheap {
+    background-color: #27292a;
+    padding: 8px 10px 8px 20px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80px;
+}
+.col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+body .page-content {
+    margin-top: 110px;
+    background-color: #27292a;
+    padding: 60px;
+    border-radius: 23px;
+}
+.main-banner {
+    display: flex;
+    background-position: center center;
+    background-size: cover;
+    min-height: 380px;
+    border-radius: 23px;
+    align-items: center;
+}
+.main-banner h6 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 10px;
+    font-family: Poppins, sans-serif;
+    
+    
+}
+
+.main-banner h4 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        color: #fff;
+        font-weight: 700;
+}
+
+.main-banner h4 i {
+    font-style: normal;
+    color: #ec6090;
+}
+.browse a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+.main-banner{
+    position: relative;
+}
+
+.banner-image{
+    position: absolute;
+    top:0;
+}
+
+.main-banner .banner-content{
+    position: relative;
+    margin-left: 55px;
+}
+.main-content{
+padding: 60px;
+box-sizing: border-box;
+background-color: #27292a;
+border-radius: 25px;
+}
+.most-popular {
+    margin-top: 200px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+    
+    
+}
+.most-popular h4{
+    color: #ec6090;
+    font-size: 35px; 
+}
+.most-popular h4 i{
+    color: white;
+}
+.most-popular {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+}
+.items .item{
+    background-color: #27292a;
+    padding: 15px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+    width: 216px;
+    min-width: 216px;
+    box-sizing: border-box;
+    margin-right: 24px;
+}
+.items .item h4{
+    color: white;
+}
+.items .item .info1{
+    display: flex;
+    justify-content: space-between;
+}
+.items .item .info2{
+    display: flex;
+    justify-content: space-between;
+}
+.most-popular .items .item img{
+    border-radius: 25px;
+    width: 100%;
+}
+.most-popular .items{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.loadmores{
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 0 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: -52px;
+    height: 47px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadmores a{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gaming-library {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+
+}
+.gaming-library h4{
+    color: #ec6090;
+    font-size: 35px; 
+}
+.gaming-library .gaming-item ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gaming-library .gaming-item ul li img {
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+.gaming-list{
+    max-width: 80px;
+    border-radius: 23px;
+}
+.gaming-library .gaming-item ul li {
+    display: inline-block;
+    color: #666;;
+}
+
+.download-button{
+    border: 2px solid #666;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+.download-button a{
+    color: #666;
+}
+.download-button-active{
+    font-size: 14px;
+    color: #ec6090;
+    background-color: transparent;
+    border: 1px solid #ec6090;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.download-button-active:hover{
+    background-color: #e75e8d;
+}
+.library-button{
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 0 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-bottom: -52px;
+    height: 47px;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.library-button a{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.endpage p{
+    text-align: center;
+    padding: 30px 0px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.header-area-mobile{
+    background-color: white;
+    align-items: center;
+    display: none;
+    justify-content: space-between;
+}
+.header-area-mobile .menu-item{
+    margin-right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+

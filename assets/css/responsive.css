@@ -1,0 +1,80 @@
+@media (max-width:992px) {
+    .header-area {
+        display: none;
+    }
+
+    .header-area-mobile {
+        display: flex;
+    }
+
+}
+
+@media (max-width:768px) {
+    .main-banner h6 {
+        font-size: 20px;
+    }
+
+    .main-banner h4 {
+        font-size: 35px;
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+}
+@media (max-width:400px) {
+    .main-banner h6{
+        font-size: 15px;
+    }
+    .main-banner h4{
+        font-size: 28px;
+    }
+}
+@media (max-width:512px) {
+    .most-popular h4{
+        font-size: 25px;
+    }
+}
+@media (max-width:768px) {
+.gaming-library .gaming-item ul{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+@media (max-width:512px){
+.gaming-library h4{
+    font-size: 25px;
+}
+}
+@media (max-width:768px){
+    .library-button{
+        margin-top: 15px;
+    }
+}
+@media (max-width:400px){
+    .library-button{
+        font-size: 13px;
+        display: flex;
+        display: inline-block;
+    }
+}
+@media (max-width:380px){
+    .library-button{
+        width: auto;
+    }
+}
+@media (max-width:352px) {
+    .library-button{
+        font-size: 10px;
+    }
+}
+@media (max-width:326px){
+    .library-button{
+        padding: 0 25px;
+    }
+}
